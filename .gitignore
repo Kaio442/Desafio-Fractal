@@ -1,0 +1,26 @@
+# Dependências
+node_modules/
+*/node_modules/
+
+# Variáveis de ambiente e segredos (NUNCA enviar para o Git)
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Compilação e produção
+dist/
+dist-ssr/
+*.local
+
+# Registos e logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Ficheiros do sistema operativo e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
