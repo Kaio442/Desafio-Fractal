@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = 'http://localhost:3000/api/clients';
+const API_URL = 'https://desafio-fractal-api.onrender.com/api/clients';
 
 function App() {
   const [clients, setClients] = useState([]);
